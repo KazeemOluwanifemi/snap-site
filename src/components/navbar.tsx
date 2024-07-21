@@ -1,4 +1,4 @@
-import React from 'react';
+// import React from 'react';
 
 export default function Navbar(){
     return<header className='p-10 flex justify-between border-solid border-2 border-almost-black'>
