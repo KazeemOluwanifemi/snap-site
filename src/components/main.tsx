@@ -17,7 +17,7 @@ export default function Main(){
         </div>
 
         <div className="w-1/2 flex">
-            <img src="/proj-assets/images/image-hero-desktop.png" ></img>
+            <img src="/proj-assets/images/image-hero-desktop.png" alt="an illustrative image of a man doing remote work" ></img>
         </div>
         
     </main>
