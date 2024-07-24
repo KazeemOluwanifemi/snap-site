@@ -5,9 +5,9 @@ import Main from './components/main.tsx';
 
 export default function App() {
   return (
-    <main className="font-epilogue">
+    <body className="font-epilogue">
       <Navbar></Navbar>
       <Main></Main>
-    </main>
+    </body>
   )
 }

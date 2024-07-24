@@ -17,6 +17,11 @@ export default {
       },
       width: {
         'w-navbar': '540px',
+        'w-main': '85vw',
+      },
+
+      height: {
+        'h-main': '50vh',
       }
 
     },
