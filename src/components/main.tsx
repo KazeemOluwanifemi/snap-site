@@ -1,8 +1,8 @@
 import Button from "./button"
 
 export default function Main(){
-    return <main className=" w-w-main border-solid border-2 border-almost-black flex flex-row justify-center items-center gap-52 mx-auto mt-6">
-        <div className="main-text w-1/2 flex flex-row flex-wrap justify-start gap-x-48 gap-y-10">
+    return <main className=" w-w-main border-solid  flex flex-row justify-center items-center gap-52 mx-auto mt-6">
+        <div className="main-text w-1/2 flex flex-row flex-wrap gap-x-48 gap-y-10">
             <h1 className="font-bold text-almost-black text-9xl content-between">Make remote work</h1>
             <p className="text-lg text-medium-gray content-between">Get your team in sync, no matter your location.
             Streamline processes, create team rituals, and watch productivity soar.</p>
@@ -16,7 +16,7 @@ export default function Main(){
             </div>
         </div>
 
-        <div className="w-1/2 gap-6 flex justify-end">
+        <div className="w-1/2 flex">
             <img src="/proj-assets/images/image-hero-desktop.png" ></img>
         </div>
         
