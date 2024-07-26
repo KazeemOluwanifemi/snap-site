@@ -2,9 +2,17 @@
 
 export default function Navbar(){
     return<header className='p-10 flex justify-between text-medium-gray mb-32'>
-        <div className='nav-nd-logo flex flex-start w-5/6 gap-32'>
+        <div className='nav-nd-logo flex flex-start w-5/6'>
             <img src='/proj-assets/images/logo.svg' alt="company-logo"></img>
-            <nav className='text-lg w-w-navbar flex justify-around  items-center'>
+
+            <div className=" hidden lg:flex lg:flex-end">
+                <button className="hover:cursor-pointer">
+                <img src='/proj-assets/images/icon-menu.svg' alt="menu-icon"></img>
+                </button>
+            </div>
+            
+
+            <nav className='text-lg w-w-navbar flex justify-around  items-center lg:hidden'>
                 <button className='flex items-center gap-2 hover:text-black active:font-semibold '>
                     <a href='#' className="p-1">Features</a>
                     <img src='/proj-assets/images/icon-arrow-down.svg' alt="down-arrow-icon"></img>
@@ -25,7 +33,7 @@ export default function Navbar(){
             </nav>
         </div>
 
-        <div className='login-nd-register w-1/6 flex justify-around'>
+        <div className='login-nd-register w-1/6 flex justify-around lg:hidden '>
             <button className="hover:text-black active:font-semibold">
                 <a href='#' className="p-1">Login</a>
             </button>
