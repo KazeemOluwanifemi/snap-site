@@ -29,7 +29,7 @@ export default function Navbar(){
             <button className="hover:text-black active:font-semibold">
                 <a href='#' className="p-1">Login</a>
             </button>
-            <button className='px-5 py-3 border-solid border-2 border-almost-black rounded-2xl hover:text-black active:font-semibold'>
+            <button className='px-5 py-3 border-solid border-2 border-medium-gray rounded-2xl active:border-almost-black  hover:text-black active:font-semibold'>
                 <a href='#' className="p-1">Register</a>
             </button>
         </div>
