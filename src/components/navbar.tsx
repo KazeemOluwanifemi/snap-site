@@ -2,7 +2,7 @@
 
 export default function Navbar(){
     return<header className='p-10 flex justify-between text-medium-gray mb-32'>
-        <div className='nav-nd-logo flex flex-start w-5/6'>
+        <div className='nav-nd-logo flex flex-start w-5/6 gap-32'>
             <img src='/proj-assets/images/logo.svg' alt="company-logo"></img>
 
             <div className=" hidden lg:flex lg:flex-end">
